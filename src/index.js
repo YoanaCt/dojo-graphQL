@@ -1,7 +1,7 @@
 const { ApolloServer } = require("apollo-server");
 const typeDefs = require("./schema");
 const resolvers = require("./resolver");
-const postApi = require("./DataSource/PostAPI");
+const PostApi = require("./DataSource/PostAPI");
 
 const server  = new ApolloServer({
     typeDefs,
